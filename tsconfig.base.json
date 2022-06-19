@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@oxygen-ui/data-display": ["packages/data-display/src/index.ts"],
+      "@oxygen-ui/feedback": ["packages/feedback/src/index.ts"],
+      "@oxygen-ui/inputs": ["packages/inputs/src/index.ts"],
+      "@oxygen-ui/layout": ["packages/layout/src/index.ts"],
+      "@oxygen-ui/navigation": ["packages/navigation/src/index.ts"],
+      "@oxygen-ui/surfaces": ["packages/surfaces/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

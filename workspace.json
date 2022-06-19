@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "data-display": "packages/data-display",
+    "data-display-e2e": "packages/data-display-e2e",
+    "feedback": "packages/feedback",
+    "feedback-e2e": "packages/feedback-e2e",
+    "inputs": "packages/inputs",
+    "inputs-e2e": "packages/inputs-e2e",
+    "layout": "packages/layout",
+    "layout-e2e": "packages/layout-e2e",
+    "navigation": "packages/navigation",
+    "navigation-e2e": "packages/navigation-e2e",
+    "surfaces": "packages/surfaces",
+    "surfaces-e2e": "packages/surfaces-e2e"
+  }
+}
